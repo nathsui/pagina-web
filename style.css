@@ -108,3 +108,17 @@ button {
     padding: 0;
     margin: 0;
 }
+
+.boton {
+    text-align: center; /* Alinea el contenido del div al centro */
+}
+
+.boton a {
+    display: inline-block; /* Permite que el enlace se comporte como un bloque dentro del div */
+}
+
+.enlace-centrado {
+    display: block;
+    margin: 10px auto; /* Centra horizontalmente el bloque dentro de su contenedor */
+    text-align: center;
+}

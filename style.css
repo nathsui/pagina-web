@@ -1,7 +1,110 @@
+/* imagen de fondo */
 body {
-
-    background-image: url("/img/fondo.jpg");
+    background-image: url("img/fondo/fondo.jpg");
     background-size:cover;
     background-repeat: no-repeat;
+    width: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.navbar{
+    text-decoration: none;
+    color: rgb(250, 132, 246);
+    padding: 0 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(255, 169, 245);
+    color: rgb(8, 8, 8);
+}
+
+.navbar a.active{
+    background-color: white;
+    color: black;
+}
+
+/* centrado */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    margin: 0 10px; 
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+}
+a {
+    display: block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    border-radius: 8px;
+    margin: 30px 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(330, 100%, 71%); 
+}
+
+a:hover {
+    background-color: transparent;
+    border: 2px solid hsl(330, 100%, 71%);
+    color: hsl(330, 100%, 71%);
+}
+
+
+table {
+    margin: 0 auto;
+}
+
+#Noticias{
+    text-align: center;
+}
+
+#Deportes {
+    text-align: center;}
+
+#Negocios {
+    text-align: center ;
+}
+
+#Entretenimiento {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.seccion1 {
+    margin-bottom: 200px;
+}
+
+.seccion2 {
+    margin-top: 200px;
+}
+
+.seccion3 {
+    margin-top: 200px;
+}
+
+table.video-table {
+    margin: 0 auto;
+}
+
+
+button {
+    padding: 0;
+    margin: 0;
 }
